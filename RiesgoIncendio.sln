@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiesgoIncendio", "RiesgoIncendio\RiesgoIncendio.csproj", "{8B8BCC6F-1B7A-4EB7-BF43-80FF7256F16C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRiesgoIncendio", "TestRiesgoIncendio\TestRiesgoIncendio.csproj", "{57608E3C-C98D-49BF-9C9A-818C5BA97077}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestRiesgoIncendio", "TestRiesgoIncendio\TestRiesgoIncendio.csproj", "{57608E3C-C98D-49BF-9C9A-818C5BA97077}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupRiesgoIncendio", "SetupRiesgoIncendio\SetupRiesgoIncendio.vdproj", "{0699F5A0-9C95-4C81-96D9-580CBBC3AB78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,8 @@ Global
 		{57608E3C-C98D-49BF-9C9A-818C5BA97077}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57608E3C-C98D-49BF-9C9A-818C5BA97077}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57608E3C-C98D-49BF-9C9A-818C5BA97077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0699F5A0-9C95-4C81-96D9-580CBBC3AB78}.Debug|Any CPU.ActiveCfg = Debug
+		{0699F5A0-9C95-4C81-96D9-580CBBC3AB78}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
