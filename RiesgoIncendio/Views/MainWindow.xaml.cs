@@ -105,7 +105,6 @@ namespace RiesgoIncendio.Views
 
         public static bool ValidarHumedad(double RH)
         {
-            MessageBox.Show(RH.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             return RH >= 0;
         }
 

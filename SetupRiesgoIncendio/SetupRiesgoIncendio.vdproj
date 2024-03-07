@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_4ABE491694A549278BB35FDE9D9807EE"
+        "MsmKey" = "8:_B573DF38A82544BDA5AD3BB6CBA13868"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -43,6 +43,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -59,6 +67,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -76,14 +92,24 @@
         {
             "LaunchCondition"
             {
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_C096E3AE70414B51AD90DA6F4A07CD2B"
+                {
+                "Name" = "8:.NET Core"
+                "Message" = "8:[VSDNETCOREMSG]"
+                "AllowLaterVersions" = "11:FALSE"
+                "InstallUrl" = "8:https://dotnet.microsoft.com/download/dotnet-core/[NetCoreVerMajorDotMinor]"
+                "IsNETCore" = "11:TRUE"
+                "Architecture" = "2:0"
+                "Runtime" = "2:0"
+                }
             }
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4ABE491694A549278BB35FDE9D9807EE"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B573DF38A82544BDA5AD3BB6CBA13868"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\riesgo.ico"
-            "TargetName" = "8:riesgo.ico"
+            "SourcePath" = "8:..\\RiesgoIncendio\\Views\\incendio.ico"
+            "TargetName" = "8:incendio.ico"
             "Tag" = "8:"
             "Folder" = "8:_0E2845A0608A4A90B5D2C527C205A2EC"
             "Condition" = "8:"
@@ -277,21 +303,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_43918DD9A3DF403B8CEBCA0A10739B66"
-            {
-            "Name" = "8:WPFRIESGO"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_BE689FBF00BB43BE8F68BD1E7FB2C3EA"
-            "Folder" = "8:_09F09295879646AD85E974D90D1E5154"
-            "WorkingFolder" = "8:_0E2845A0608A4A90B5D2C527C205A2EC"
-            "Icon" = "8:_4ABE491694A549278BB35FDE9D9807EE"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A47CE93554E94DB1B433E8E93027EC82"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_09B1C15B87EE428AA2039FF9FAAA74CE"
             {
             "Name" = "8:WPFRIESGO"
             "Arguments" = "8:"
@@ -302,7 +314,21 @@
             "Target" = "8:_BE689FBF00BB43BE8F68BD1E7FB2C3EA"
             "Folder" = "8:_7C25A25A5F414CA49ADD4D2A85854A6F"
             "WorkingFolder" = "8:_0E2845A0608A4A90B5D2C527C205A2EC"
-            "Icon" = "8:_4ABE491694A549278BB35FDE9D9807EE"
+            "Icon" = "8:_B573DF38A82544BDA5AD3BB6CBA13868"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_89774332C0624FB7B7A81CB817B9DA16"
+            {
+            "Name" = "8:WPFRIESGO"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_BE689FBF00BB43BE8F68BD1E7FB2C3EA"
+            "Folder" = "8:_09F09295879646AD85E974D90D1E5154"
+            "WorkingFolder" = "8:_0E2845A0608A4A90B5D2C527C205A2EC"
+            "Icon" = "8:_B573DF38A82544BDA5AD3BB6CBA13868"
             "Feature" = "8:"
             }
         }
